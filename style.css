@@ -143,9 +143,6 @@ margin-top: auto;
     margin-top:  13px;
     position: absolute;
 }
-.search-section .inp-sec .serch-img{
-
-}
 
 .search-section .inp-sec .mic-img{
     margin-top: -191.5px;
@@ -319,6 +316,93 @@ padding-left: 20px;
             text-decoration: underline;
             }
         
-  
+@media only screen and (max-width: 600px) {   
+    .navbar .nav-elements{
+        margin: auto;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* justify-content:space-between;
+        margin-left: 70px;
+        margin-right: 70px; */
+        justify-content: flex-end;
+        /* margin-right: -105px; */
+        margin-top: 20px;
+        margin-right: 15px;
+        
+    }
+
+    .logo-section img{
+        width: 150px;
+        height: 55px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        
+        }
+    
+.search-section .inp-sec{
+    /* background-color: red; */
+    width: 400px;
+    height: 46px;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 0px;
+    border-color: rgb(227, 229, 233);
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    
+
+    
+
+}
+
+.search-section .inp-sec input{
+    /* margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px; */
+    /* width: 585px;
+    height: 46px;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: rgb(227, 229, 233); */
+    
+    /* background: url(search_black_24dp.svg) no-repeat scroll 12px 12px; */
+    /* background-color: red; */
+    width: 400px;
+    height: 46px;
+    border-style: solid;
+    border-radius:25px;
+    border-width: 1px;
+    border-color: rgb(227, 229, 233);
+    outline: none;
+    
+}
+
+.search-section .inp-sec .serch-img{
+    width: 5px;
+    margin-left: 13px;
+    margin-top:  13px;
+    position: absolute;
+}
+
+.search-section .inp-sec .mic-img{
+    margin-top: -191.5px;
+    margin-left: 368px;
+    position: absolute;
+}
+
+.search-section .inp-sec .keyboard-img{
+    margin-top: 14px;
+    margin-left: 320px;
+    position: absolute;
+}
+
+
+
+ }
 
 
